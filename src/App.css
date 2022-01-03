@@ -1,8 +1,61 @@
+::-webkit-scrollbar {
+  @apply bg-gray-200 w-3;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-md border-solid border-gray-200 bg-gray-500;
+}
+
 .twitter-logo {
   width: 35px;
   height: 35px;
 }
 
 .connect-wallet-button {
-  @apply py-3 px-5 rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-medium active:outline active:outline-2  active:outline-offset-2 active:outline-indigo-500 hover:shadow-lg hover:shadow-indigo-500/50;
+  @apply py-3 px-5 rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-medium active:outline active:outline-2  active:outline-offset-2 active:outline-indigo-500 hover:shadow-lg hover:shadow-indigo-500/50;
+}
+
+.submit-gif-button {
+  @apply py-3 px-5 rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-medium hover:shadow-lg hover:shadow-indigo-500/50;
+}
+
+.gif-form {
+  @apply my-10 flex items-center justify-center space-x-5;
+}
+
+.gif-form input {
+  @apply p-3 w-52 md:w-auto border-2 border-gray-700 focus:border-blue-500 rounded-lg bg-transparent placeholder-gray-500 outline-none text-white
+}
+
+.connected-container {
+  @apply my-10;
+}
+
+.gif-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5;
+}
+
+.gif-item {
+  @apply rounded-lg flex items-center justify-center;
+}
+
+.gif-item img {
+  @apply w-full h-60 rounded-lg object-cover border-2;
+}
+
+body {
+  @apply bg-gray-900;
+}
+
+.app {
+  @apply px-2;
+}
+
+.footer {
+  @apply mt-20 mb-10 flex items-center justify-center;
 }
