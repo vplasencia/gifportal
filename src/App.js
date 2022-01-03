@@ -15,10 +15,6 @@ const TEST_GIFS = [
 ];
 
 function App() {
-  /*
-   * This function holds the logic for deciding if a Phantom Wallet is
-   * connected or not
-   */
   const checkIfWalletIsConnected = async () => {
     try {
       const { solana } = window;
@@ -56,7 +52,7 @@ function App() {
   const sendGif = async () => {
     if (inputValue.length > 0) {
       console.log("Gif link:", inputValue);
-      setGifList([...gifList, inputValue]);
+      setGifList([inputValue, ...gifList]);
       setInputValue("");
     } else {
       console.log("Empty input. Try again.");
