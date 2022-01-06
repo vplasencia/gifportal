@@ -21,7 +21,7 @@
 }
 
 .submit-gif-button {
-  @apply py-3 px-5 rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-medium hover:shadow-lg hover:shadow-indigo-500/50;
+  @apply py-3 px-8 rounded-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-medium hover:shadow-lg hover:shadow-indigo-500/50;
 }
 
 .gif-form {
@@ -29,7 +29,7 @@
 }
 
 .gif-form input {
-  @apply p-3 w-52 md:w-auto border-2 border-gray-700 focus:border-blue-500 rounded-lg bg-transparent placeholder-gray-500 outline-none text-white
+  @apply p-3 w-3/6 border-2 border-gray-700 focus:border-blue-500 rounded-lg bg-transparent placeholder-gray-500 outline-none text-white
 }
 
 .connected-container {
